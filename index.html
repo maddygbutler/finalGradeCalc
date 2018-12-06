@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Grade Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<title>Final Grade Calculator</title>
+
+<h1> Final Grade Calculator</h1>
+<body>
+<table>
+    <tr>
+        <td>Homework Points</td>
+        <td>Homework Weight</td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+                <input id="homeworkPoints" type="text">
+            </div>
+        </td>
+        <td>
+            <div>
+                <input id="homeworkWeight" type="text">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>Participation Points</td>
+        <td>Participation Weight</td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+                <input id="participationPoints" type="text">
+            </div>
+
+        </td>
+        <td>
+            <div>
+                <input id="participationWeight" type="text">
+            </div>
+
+        </td>
+    </tr>
+    <tr>
+        <td>Classwork Points</td>
+        <td>Classwork Weight</td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+                <input id="classworkPoints" type="text">
+            </div>
+
+        </td>
+        <td>
+            <div>
+                <input id="classworkWeight" type="text">
+
+            </div>
+
+        </td>
+    </tr>
+    <tr>
+        <td>Tests Points</td>
+        <td>Tests Weight</td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+            <input id="testsPoints" type="text">
+            </div>
+        </td>
+        <td>
+            <div>
+            <input id="testsWeight" type="text">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>Projects Points</td>
+        <td>Projects Weight</td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+            <input id="projectsPoints" type="text">
+            </div>
+        </td>
+        <td>
+            <div>
+            <input id="projectsWeight" type="text">
+            </div>
+        </td>
+    </tr>
+</table>
+
+<button onClick = "currentGrade()"> Calculate Current Grade</button>
+
+<table>
+    <tr>
+        <td>Grade Desired</td>
+        <td>Final Weight</td>
+    </tr>
+    <tr>
+        <td>
+            <input type="text">
+        </td>
+        <td>
+            <div>
+            <input id="finalWeight" type= "text">
+            </div>
+        </td>
+    </tr>
+</table>
+
+<button onClick = "finalGrade()"> Calculate Grade Required</button>
+</body>
+</html>
