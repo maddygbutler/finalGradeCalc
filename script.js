@@ -29,20 +29,23 @@ function currentGrade(){
     console.log(projectsPoints);
     console.log(projectsWeight);
 
-    newNumber(str);
-
+    var hwArr = newNumber(homeworkPoints);
+    console.log(hwArr);
 
 }
 
 
 
 function newNumber(str){
+
     var arr= str.split(",");
     for(var i=0; i< arr.length; i++){
         arr[i]= parseInt(arr[i]);
     }
     console.log(arr);
     return arr;
+
+
 
 }
 
