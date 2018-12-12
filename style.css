@@ -1,5 +1,14 @@
 body{
-/*    position: relative;
-    text-align: center;*/
+    position: relative;
+
+    text-align: center;
+
     background-color: lightpink;
+
 }
+
+#container{
+    margin: auto;
+    width: 20%;
+}
+
